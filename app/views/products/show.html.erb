@@ -1,0 +1,8 @@
+<h1><%= @product.name %></h1>
+<h3><%= number_to_currency(@product.price)%></h3>
+<p>Sku: <%= @product.sku %></p>
+<div>
+  <%= @product.description %>
+</div>
+
+<%= link_to('&laquo; Back to all products'.html_safe, products_path) %>
