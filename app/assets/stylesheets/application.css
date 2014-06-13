@@ -13,3 +13,58 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Helvetica Neue';
+  font-size: 16px;
+  color: #333333;
+  background: transparent url('skulls.png') repeat scroll center center;
+}
+#wrapper {
+  width: 980px;
+  margin: 0 auto;
+}
+header {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.flash-alert {
+  padding: 10px;
+  border: 1px solid #750202;
+  color: #750202;
+  font-size: 18px;
+  background-color: #fcadad;
+  font-weight: bold;
+}
+.flash-notice {
+  padding: 10px;
+  border: 1px solid #017505;
+  color: #017505; 
+  font-size: 18px;
+  background-color: #b5ffb2;
+  font-weight: bold;
+}
+#main-content {
+  background-color: white;
+  padding: 20px;
+}
+ul#products {
+  list-style: none;
+}
+ul#products li {
+  margin-bottom: 5px;
+}
+ul#products li.odd {
+  background-color: #eeeeee;
+}
+footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #aaaaaa;
+  font-size: 12px;
+}
