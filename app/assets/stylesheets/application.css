@@ -43,7 +43,7 @@ header {
 .flash-notice {
   padding: 10px;
   border: 1px solid #017505;
-  color: #017505; 
+  color: #017505;
   font-size: 18px;
   background-color: #b5ffb2;
   font-weight: bold;
@@ -60,6 +60,14 @@ ul#products li {
 }
 ul#products li.odd {
   background-color: #eeeeee;
+}
+.left-column {
+  float: left;
+  width: 400px;
+}
+.right-column {
+  float: right;
+  width: 400px;
 }
 footer {
   margin-top: 20px;

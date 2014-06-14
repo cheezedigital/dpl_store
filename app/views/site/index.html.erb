@@ -1,2 +1,21 @@
 <h1>Welcome to the DPL store</h1>
 <%= image_tag('holler.jpg', size: '100x100') %>
+
+<div class="left-column">
+  <h2>Our Products</h2>
+  <% @products.each do |product| %>
+    <div class="product">
+      <%= product.name %>
+    </div>
+  <% end %>
+</div>
+
+<div class="right-column">
+  <h2>Our Cars</h2>
+  <% @cars.each do |car| %>
+  <div class="car">
+    <%= car.year %> <%= car.make %> <%= car.model %>
+  </div>
+ <% end %>
+</div>
+<br clear="all">
